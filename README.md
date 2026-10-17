@@ -1,11 +1,5 @@
 # SQL vs NoSQL on AWS: One API, Two Database Architectures
 
-![AWS](https://img.shields.io/badge/AWS-Serverless-FF9900?logo=amazonwebservices&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)
-![RDS](https://img.shields.io/badge/Amazon%20RDS-MySQL%208.4-527FFF)
-![DynamoDB](https://img.shields.io/badge/Amazon-DynamoDB-4053D6)
-![Status](https://img.shields.io/badge/Status-Complete-success)
-
 I built the same e-commerce ordering API twice: once on Amazon RDS for MySQL with a fully normalized schema, and once on Amazon DynamoDB with a denormalized single-table design. Same users, same orders, same API Gateway front door. The point was to compare the two architectures where it actually matters: data modeling, authentication, availability, and scaling.
 
 ## Architecture
@@ -106,4 +100,7 @@ Neither engine wins outright. If the workload needs ad hoc queries, multi-table 
 
 ## Connect
 
-I write about AWS architecture decisions like this one on LinkedIn: [linkedin.com/in/agarwalanu](https://www.linkedin.com/in/agarwalanu)
+
+*Built and measured by Anu Agarwal — [linkedin.com/in/agarwalanu](https://www.linkedin.com/in/agarwalanu)*
+
+<img width="732" height="56" alt="image" src="https://github.com/user-attachments/assets/6d6d2775-4fcf-45af-a872-aa3b19b7db72" />
